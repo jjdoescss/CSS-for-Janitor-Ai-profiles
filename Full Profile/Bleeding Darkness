@@ -1,0 +1,1076 @@
+<div class="bio">
+  <div class="stats">
+    <h1>❝What's up?❞</h1>
+    Spill the tea here!
+  </div>
+  <h1>Heading 1</h1>
+  <h2>Heading 2</h2>
+  <h3>Customize</h3>
+  <h4>Your</h4>
+  <h5>Bio</h5>
+  <h6>inside</h6>
+  this bio div!
+  <details class="infobox">
+    <summary>Box Title</summary>
+    <p>Write information here. You MUST use the p tag for the text decoration to work.</p>
+    because this is what happens when you don't.
+    <p><a href="PUTLINKHERE">Here's a link text!</a></p>
+    <p>Copy and paste the "infobox" details to make multiple boxes!</p>
+  </details>
+</div>
+
+<div class="creds-DO-NOT-DELETE">
+  <a href="https://janitorai.com/profiles/fd7c024a-9aed-437f-8f07-2d63b645256a">CSS template by @JustCallMeJJ</a>
+   <style>/* Bot card template written by JJ, DO NOT DELETE. Credits is REQUIRED if you use this template, edit however you like. */
+     .creds-DO-NOT-DELETE {
+       text-align: center;
+     }
+     .creds-DO-NOT-DELETE a {
+       font-family: Aldrich;
+       font-size: 15px;
+       color: white;
+       opacity: 70%;
+       text-decoration: underline;
+       transition: all 0.5s ease-in-out;
+     }
+     .creds-DO-NOT-DELETE a:hover {
+       opacity: 100%;
+       color: red;
+       transition: all 0.5s ease-in-out;
+     }
+   </style>
+</div>
+
+<style class="profile-card">
+   /* CENTERING PFP, USERNAME / NICKNAME, FOLLOWING COUNT, BADGES, MEMBER SINCE */
+  .pp-uc-avatar {
+    object-fit: contain;
+  } 
+
+  .css-1uodvt1 {
+    padding-top: 0px;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .pp-uc-avatar-container { 
+    width: 250px;
+    height: auto;
+  }
+
+  .pp-uc-avatar { 
+    box-shadow: none;
+    height: 250px;
+    width: 260px;
+  }
+
+  .profile-info-stack-inner, .profile-info-stack-inner-flex { 
+    text-align: center;
+    justify-content: center;
+  }
+/* END OF CENTERING PFP, USERNAME / NICKNAME, FOLLOWING COUNT, BADGES, MEMBER SINCE */
+  .profile-title-heading { /* Username styling */
+    font-family: Rock Salt;
+    color: red;
+    font-weight: 500;
+    white-space: normal;
+    padding: 5px;
+  }
+
+  .pp-uc-followers-count span:last-child { /* Hiding "followers" text */
+    font-size: 0px;
+    position: relative;
+    user-select: none;
+}
+
+  .pp-uc-followers-count::before { /* Custom text IN FRONT of follower count */
+    content: "This creator has "
+  }
+
+.pp-uc-followers-count span:last-child::after { /* Custom followers name */
+  content: "pookies";
+  color: red;
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+.profile-followers-count { /* Styling follower count */
+  position: relative;
+  font-family: courier new;
+  color: red;
+}
+
+.pp-uc-member-since { /* Hiding member since text */
+  font-size: 0px; /* delete ONLY this line if you want to keep the og text */
+  font-family: Courier New;
+  color: red;
+  text-shadow: darkred 3px 1px 5px;
+}
+
+.pp-uc-member-since::before { /* Custom text, delete this section if you kept the og text */
+  content: "Your tag line or custom text here";
+  font-size: 20px;
+}
+/* FOLLOW BUTTON SECTION */
+  .Btn:before { 
+    background: rgb(0, 0, 0, 0.87);
+  }
+
+  .profile-uc-follow-text {
+    font-family: Aldrich;
+    font-style: italic;
+    color: red;
+  }
+
+  .Btn {
+    background: linear-gradient(to right,#FF2E2E,#D10000,#A30000,#FF2E2E,#D10000)
+  }
+
+  .css-fdshcw {
+    justify-items: center;
+  } 
+
+  ._btn_rbrjr_2 {
+    visibility: hidden;
+    font-size: 0px;
+  }
+/* END OF FOLLOW BUTTON SECTION */
+</style>
+
+<style class="badges">
+  .profile-badges { /* Centering Badges */
+    justify-content: center;
+  }
+
+   .profile-badge-img, .profile-badge { /* Coloring badges */
+    width: 40px;
+    height: 50px;
+    filter: sepia(100%) saturate(350%) hue-rotate(310deg) brightness(50%);
+    transition: filter ease-out 0.5s, height 0.9s ease-out;
+  }
+
+  .profile-badge-img:hover, .profile-badge:hover { /* Hover effects */
+    filter: sepia(0%) saturate(100%) hue-rotate(0deg) brightness(100%);
+    transform: scale(1.1);
+    transition: filter ease-in 0.2s, transform ease-in 0.5s;
+  }
+</style>
+
+<style class="bots-section">
+  .css-wb9w2b[aria-selected=true], .css-wb9w2b[data-selected] {
+    color: white;
+  }
+
+  .pp-tabs-wrapper { /* Character wrapper */
+  position: relative;
+  top: 1.1rem; 
+  padding: 25px;
+  height: 3rem;
+  width: auto;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(to right, black, darkred);
+  z-index: 0;
+    border: gray 5px ridge;
+  }
+
+  .pp-tabs-button { /* Character wrapper text style */
+  font-size: 0; 
+  font-family: Aldrich;
+  text-wrap: nowrap;
+  font-weight: bolder;
+  }
+
+  .pp-tabs-button[aria-selected=true], .pp-tabs-button[data-selected] {
+    color: red;
+    font-weight: 600;
+    font-size: 1.3em;
+    text-shadow: black 0 0 10px, red 0 0 50px;
+  } /* Make focused text red */
+
+  button[data-tab="characters"], [data-tab="scripts"], [data-tab="chats"] {
+  font-size: 0 !important; /* Hiding og text */
+  }
+
+  button[data-tab="scripts"]::after {
+  content: "Codex"; /* Custom text for Characters button here! */
+  font-size: 1.3rem;
+}
+
+  button[data-tab="characters"]::after {
+    content: "Database"; /* Custom text for Scripts button here! */
+    font-size: 1.3rem;
+  }
+
+  button[data-tab="chats"]::after {
+    content: "Records"; /* Custom text for Scripts button here! */
+    font-size: 1.3rem;
+  }
+
+  .pp-tabs-indicator { /* Hide og tabs indicator text */
+    visibility: hidden;
+  }
+/* ---- POSTIONING BOT SECTION ----- */
+  .character-list-pagination-flex, ._outer_1jhaa_48 {
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 15px;
+    top: 10px;
+  }
+
+  ._outer_1jhaa_48 {
+    justify-content: center;
+  } 
+/* ---- POSTIONING BOT SECTION END ----- */
+  .pp-pg-total { /* Characters count general style */
+    background: black;
+    border-radius: 0px;
+    border: 3px white inset;
+    font-family: Courier New;
+    font-size: 20px;
+  }
+
+  .pp-pg-total-text { /* Hiding og "characters" count text */
+    font-size: 0px;
+    text-transform: uppercase;
+  }
+
+  .pp-pg-total-count { /* ignore */
+    user-select: none;
+    transition: color 0.6s ease-in-out;
+  }
+
+  .pp-pg-total-text::after { /* Custom characters text here */
+    content: "Total babes";
+    font-size: 20px;
+    color: white;
+    transition: color 0.5s ease-in;
+    margin-left: 5px;
+  }
+
+  .profile-badge-flex-inner:hover .pp-pg-total-count, 
+  .profile-badge-flex-inner:hover .pp-pg-total-text::after { /* Hover characters text */
+    color: red;
+    transition: color 0.5s ease-out;
+  }
+/* ---- CHARACTER SEARCH ELEMENTS ---- */
+  ._searchInput_1ynn9_1 { /* Search characters text */
+    color: #FFD1DC;
+    font-family: Aldrich;
+  }
+
+  ._searchInput_1ynn9_1:hover, ._searchInput_1ynn9_1:focus{
+    border: #FFD1DC 1px solid;
+    box-shadow: #FFD1DC 1px 1px;
+  }
+
+  .profile-filter-button-vsc-filter path, ._searchIcon_1cle1_21, ._notificationIcon_wpa9q_31, ._iconWrapper_dg9q2_61 svg, ._removeButton_10txd_79{
+    border-color: #FFD1DC;
+    color: #FFD1DC;
+  }
+
+  .css-1dimb5e-singleValue {
+    font-family: Aldrich;
+    font-weight: 500;
+  }
+
+  .dark .react-select__control, .colored .react-select__control, .transparent .react-select__control, .react-select__menu-portal .react-select__control {
+    font-family: Aldrich;
+    border-color: #FFD1DC;
+  }
+
+  .dark .react-select__dropdown-indicator, .colored .react-select__dropdown-indicator, .transparent .react-select__dropdown-indicator, .react-select__menu-portal .react-select__dropdown-indicator {
+    color: #FFD1DC;
+  }
+
+  .dark .react-select__dropdown-indicator:hover, .colored .react-select__dropdown-indicator:hover, .transparent .react-select__dropdown-indicator:hover, .react-select__menu-portal .react-select__dropdown-indicator:hover {
+    color: #FFD1DC;
+  }
+
+  .dark .react-select__control:hover, .colored .react-select__control:hover, .transparent .react-select__control:hover, .react-select__menu-portal .react-select__control:hover {
+    border-color: #FFD1DC;
+  }
+/* ---- CHARACTERS SEARCH ELEMENTS END ---- */
+  .profile-pagination-flex-outer {
+    position: sticky;
+    bottom: 0;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .characters-list-container-flex {
+    gap: 50px;
+  }
+</style>
+
+<style class="profile-section">
+  .profile-public-scripts, .profile-published-chats {
+    padding: 15px;
+  } /* adding padding */
+
+  .profile-script-card, ._card_lixs0_11 {
+    backdrop-filter: blur(5px);
+    background: black;
+    border: double 7px red;
+    border-radius: 0px;
+    box-shadow: 5px 5px 10px darkred;
+  } /* script card */
+</style>
+
+<style class="top-bar">
+  .pp-top-bar { /* PAGE TOP BAR */
+    background: transparent;
+    backdrop-filter: blur(5px);
+  }
+
+   ._tab_1nw90_50 { /* ignore */
+    font-size: 0px;
+  }
+
+  .profile-top-bar-logo-name { /* Styling the new home button */
+    font-family: Aldrich;
+    color: red;
+    font-size: 0px;
+  }
+
+  ._tab_1nw90_50:hover { /* Home button hover */
+    color: white;
+    text-shadow: red 4px 3px 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  ._tab_1nw90_50::before { /* Custom home button text */
+    content: "< Go back";
+    font-size: 1.2rem;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .profile-top-bar-search { /* Hiding "Search for characters" text */
+    background: rgba(71, 0, 0, 0.8);
+    border: double gray 6px;
+    border-radius: 0px;
+  }
+
+ #search-input::placeholder { /* Custom "Search for characters" text */
+  opacity: 0;
+}
+#search-input { /* Making search interactive */
+  position: absolute;
+  width: calc(100% - 2.5rem) !important;
+  padding-right: 2.5rem !important;
+  font-family: Cardo !important;
+  font-size: 1rem !important;
+  color: white !important;
+  caret-color: white;
+}
+.pp-top-bar-search::after { /* Custom "Search for characters" text */
+  content: "Going off somewhere?";
+  color: white;
+  font-family: Aldrich;
+  position: absolute; /* ignore from here */
+  top: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in;
+  text-overflow: ellipsis;
+  max-width: calc(100% - (2.5rem * 2)); /* Creds to @MissRadiance for this cause im bad at math */
+}
+.pp-top-bar-search:focus-within::after,
+.pp-top-bar-search:has(#search-input:not(:placeholder-shown))::after { 
+  opacity: 0;
+}
+.pp-top-bar-search:focus-within #search-input,
+#search-input:not(:placeholder-shown) { 
+    opacity: 1;
+}
+/* ---- "CREATE A CHARACTER" BUTTON SECTION ---- */
+  .glow-on-hover { /* hiding og button */
+    font-size: 0px;
+  }
+
+  .glow-on-hover:hover::before {
+    opacity: 0;
+  }
+
+  .glow-on-hover::after { /* Customizing */
+    opacity: 50%;
+    content: "「 Submit new profile 」";
+    font-size: 18px;
+    font-family: DM Serif Text;
+    border: #595959 2px dashed;
+    width: 200px;
+    height: 30px;
+    left: -190px;
+    top: -15px;
+    font-variant: small-caps;
+    padding-top: 2px;
+  }
+
+  .glow-on-hover:hover::after { /* Customizing hover */
+    opacity: 1;
+    color: red;
+    background: #470000;
+    border: gray solid 3px;
+    text-shadow: darkred 3px 2px 5px;
+  }
+</style>
+
+<style class="bot-styling"> 
+  .pp-cc-name { /* bot name */
+    font-family: Georgia;
+    font-size: 19px;
+    color: red;
+    text-shadow: darkred 1px 2px 5px;
+  }
+
+  .pp-cc-ribbon-wrap { /* chat ribbon styling */
+    background: black;
+    border: red 5px double;
+  }
+
+  .pp-cc-wrapper { /* General bot card coloring */
+    background: black;
+    border: red double 8px;
+    border-radius: 0px;
+  }
+
+  .pp-cc-wrapper::before { /* title of the bot card */
+    content: "your text here";
+    font-family: Aldrich;
+  }
+
+  .pp-cc-wrapper::after { /* I recommend not touching this */
+    content: "Hover for details - Tap for details";
+    font-family: DM Serif Text;
+  }
+
+  .profile-character-card-tag-limitless { /* Limitless tag */
+    border-radius: 0px;
+    border: red ridge 3px;
+    background: black;
+    font-family: Aldrich;
+    font-size: 0px;
+  }
+
+ .profile-character-card-tag-limitless::after { /* Custom text for Limitless tag */
+   content: "「 PERSONAL PERKS 」";
+   font-size: 15px;
+   color: white;
+   text-align: center;
+   padding-top: 5px;
+  } 
+
+  .pp-cc-tags-regular, .pp-cc-tags-custom { /* Tag styling */
+    border-radius: 0px;
+    padding: 5px;
+    font-family: Aldrich;
+    color: gray;
+    border: 1px solid darkred;
+  }
+
+  .pp-cc-tags-regular:hover, .pp-cc-tags-custom:hover { /* Tag hover styling */
+    border: 2px solid #2b2b2b;
+    background: red;
+    color: black;
+    transform: scale(1.1);
+  }
+
+  .pp-cc-description { /* Bot Description */
+    font-family: DM Sans;
+    color: white;
+  }
+
+  .profile-character-card-creator-name-link { /* Creator name */
+    color: #5c0000;
+    font-family: Aldrich;
+  }
+
+  .profile-character-card-creator-name-link::before { /* Custom text IN FRONT of Creator name */
+    content: "Written by";
+    padding-right: 2px;
+  }
+
+  .profile-character-card-creator-name-link:hover { /* Creator name hover */
+    color: red;
+    transform: scale(1.1);
+  }
+
+  .pp-cc-chats { /* Chat ribbon */
+    font-family: Aldrich;
+  }
+
+  .pp-cc-chats::before { /* Custom text IN FRONT of chat count */
+    content: "has";
+    text-transform: uppercase;
+  }
+
+  .pp-cc-chats::after { /* Custom text BEHIND of chat count */
+    content: "total chats";
+    text-transform: uppercase;
+  }
+
+  .pp-cc-tokens-count {  /* Chat count font */
+    font-family: Aldrich;
+  }
+</style>
+
+<style class="tooltips">
+  .css-jdhqy4>div { /* ALL tooltips for your personal profile */
+    font-family: Aldrich;
+    background: black;
+    color: white;
+    border-radius: 0px;
+    border: double darkred 5px;
+    font-weight: 500;
+  }
+/* ---- WEB SEARCH HISTORY DROP DOWN ----*/
+  ._dropdown_1cle1_108 { /* Drop down menu */
+    border: white solid 2px;
+    border-radius: 15px;
+  }
+
+  ._historyItem_10txd_1 { /* Drop down menu background */
+    background: black;
+  }
+
+  ._historyItem_10txd_1:hover { /* Drop down menu background hover */
+    background: #470000;
+  }
+
+  ._queryText_10txd_67 { /* Search history text */
+    font-family: Raleway;
+    color: white;
+    font-size: 18px;
+    transition: font-size 0.5s ease-out;
+  }
+
+  ._queryText_10txd_67:hover { /* Search history text hover */
+    transform: scale(0,5.0,5);
+    font-size: 20px;
+    color: red;
+    transition: all 0.5s ease-in;
+  }
+/* ---- NOTIFICATIONS SECTION (Notif) ---- */
+  .pp-top-bar-notifications-popover-title { /* Notif title */
+    font-family: "Press Start 2P";
+    color: red;
+    font-size: 0px; /* Change size if you wanna keep the og text, rec: 18px */
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 1px 3px 5px #470000;
+  }
+
+  .pp-top-bar-notifications-popover-title::after { /* Notif title custom text, delete if you want to keep og */
+    content: "Inbox";
+    font-size: 1rem;
+  }
+/* ---- ANNOUNCEMENT SECTION, IGNORE ----*/
+  ._announcementNotification_di476_422, ._notificationsButton_wpa9q_7 {
+    border: none;
+    background: linear-gradient(to top, black, #8f0000, black);
+    background-size: 200% 200%;
+    background-position: center top;
+    transition: all 1s ease-in-out;
+  }
+
+  ._announcementNotification_di476_422:hover, ._notificationsButton_wpa9q_7:hover {
+    background: transparent;
+    background-position: center bottom;
+    transition: all 1s ease-in-out;
+  }
+
+  .pp-top-bar-notifications-button { /* Button itself */
+    background: black;
+    border: red 2px solid;
+    border-radius: 20px;
+  }
+
+  .pp-top-bar-notifications-popover { /* Notif Background */
+    background: black;
+  }
+
+  ._notificationsPopover_wpa9q_80:before { /* Notif Top background gradient */
+    background: linear-gradient(to bottom,  #880808, black);
+  }
+
+  ._subject_di476_146
+, .profile-top-bar-notifications-item-body
+, .profile-top-bar-notifications-item-timestamp, .profile-top-bar-notifications-item-subject, ._announcementSubject_di476_449 {
+  font-family: Georgia;
+  font-weight: 500;
+} /* Notif content text */
+
+ ._highlightUsernameBody_di476_169 { /* Notif user highlight */
+   font-family: Aldrich;
+   color: red;
+   font-weight: 500;
+ }
+
+  ._highlightCharacterBody_di476_174, ._highlightCharacter_di476_164 { /* Notif char highlight */
+    font-family: Aldrich;
+    color: darkred;
+  }
+/* ---- USER MENU (PROFILE, SETTINGS, IMAGE GALLERY, ETC...) ---- */
+  .profile-top-bar-app-menu-list { /* user menu background */
+    background: black;
+    border: 3px outset red;
+    border-radius: 0px;
+  }
+
+  .profile-top-bar-app-menu-list-item { /* user menu background text */
+    font-family: Courier New;
+    background: black;
+    border-radius: 5px;
+    color: gray;
+  }
+
+  .profile-top-bar-app-menu-list-item:hover { /* user menu text hover */
+    background: black;
+    font-weight: 700;
+    color: red;
+  }
+
+  .profile-filter-modal-header { /* Tags section header */
+    font-family: "Press Start 2P";
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+  .pp-fl-tags-heading { /* Tags section sub header */
+    font-family: Aldrich;
+    font-size: 25px;
+    font-variant: small-caps;
+  }
+
+  .profile-filter-tag-button { /* Indiviual tags */
+    color: red;
+    border: darkred solid 1px;
+    border-radius: 0px;
+    font-family: Aldrich;
+  }
+
+  ._gradientRight_14k4u_36 { /* Expand button gradient */
+    background: linear-gradient(90deg, transparent 0%, red 50%, #470000 60%);
+  }
+
+  ._navigationButton_14k4u_104, ._expandButton_14k4u_153 { /* Expand button + navigate button */
+    background: #470000;
+    border-radius: 10px;
+  }
+
+  ._expandButton_14k4u_153:hover, ._navigationButton_14k4u_104:hover { /* Expand button + navigate button hover effect*/
+    background: black; 
+  }
+
+  ._contentWrapperUnread_di476_132 { /* Unread customizing section, ignore. */
+    background: transparent;
+  }
+
+  ._unreadIndicator_di476_23, ._announcementIndicator_di476_431 {
+    border: none;
+    background: linear-gradient(to bottom,black,red);
+    box-shadow: #FEFAFB 0px 0px 10px;
+  }
+</style>
+
+<style class="mobile"> /* ---- MOBILE SECTION ---- */
+  .pp-top-bar-title { /* "Profile of __" og text hide */
+    font-size: 0px
+  }
+
+  .pp-top-bar-title::before { /* Replacement for top bar mobile text */
+    font-size: 15px;
+    content: "DATABASE";
+    text-transform: uppercase;
+    font-family: Aldrich;
+    font-size: 18px;
+  }
+
+  .pp-top-bar-back-button p { /* Mobile back og button hide */
+    font-size: 0px
+  }
+
+  .pp-top-bar-back-button p::before, .pp-top-bar-back-button svg { /* Customize */
+    font-size: 20px;
+    content: "Back"; /* Custom text here */
+    text-transform: uppercase;
+    color: gray;
+    opacity: 50%;
+  }
+
+  .pp-mnb-wrapper { /* Mobile bar */
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+  }
+
+  .pp-mnb-container svg { /* Mobile Icons */
+    color: gray;
+  }
+</style>
+
+<style class="animations-NO"> /* Bot card animations */
+    @keyframes reveal { /* Intro animations */
+    0% {
+      z-index: -1;
+      opacity: 0;
+      transition: z-index 0.5s ease-in;
+    }
+    50% {
+      transform: translateX(200px) rotate(15deg);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes back { /* Outro animations */
+    10% {
+      z-index: 1;
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transition: all 1s ease-in-out;
+         }
+  }
+</style>
+
+<div class="bio-styling-NO">
+  <style class="styling-buttons"> 
+    details::details-content {
+      height: 0;
+      opacity: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+      transition: height 0.5s ease, opacity 1s ease, margin 0.3s ease;
+    }
+    details[open]::details-content {
+      height: 190px;
+      opacity: 1;
+      transition: opacity 0.5s ease-out, height 0.5s ease-out;
+    }
+    details[open]::details-content::-webkit-scrollbar {
+      width: 8px;
+    }
+    details[open]::details-content::-webkit-scrollbar-track {
+      background: transparent;
+      border-radius: 4px;
+    }
+    details[open]::details-content::-webkit-scrollbar-thumb {
+      background: black;
+      border-radius: 10px;
+    }
+    .infobox { 
+    padding: 2px;
+    border: double 6px black;
+    background: rgb(117, 0, 0, 0.8);
+    width: calc(100% - 50px);
+    border-radius: 15px;
+    user-select: none;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+    .infobox details { 
+    width: calc(100%);
+  }
+    details > summary { 
+    padding: 4px;
+    list-style: none;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-family: Aldrich;
+    color: ; 
+    background: linear-gradient(to right, red, white); 
+    background-clip: text; 
+    color: transparent; 
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+    details > p {
+    font-family: Georgia;
+    color: ; 
+    background: linear-gradient(to right, white, red, gray); 
+    background-clip: text; 
+    color: transparent; 
+    padding: 5px;
+    }
+    details > p a {
+    color: red;
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+    }
+    details > p a:hover {
+    color: black;
+    transition: color 0.2s ease-in;
+    }
+    .css-18j379d {
+    font-family: Aldrich;
+    font-weight: var(--chakra-fontWeights-bold);
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 10px;
+    }
+  </style>
+  <style>
+    .css-9qctsi, .pp-uc-avatar-container {
+      z-index: 2;
+    }
+    .pp-page-background {
+      background: #0d0d0d;
+    }
+    .pp-uc-background {
+      background: black;
+      transition: all 1s ease-in-out;
+    }
+    .pp-uc-background:hover {
+      box-shadow: #380000 0px 0px 40px;
+      transition: all 0.7s ease-in-out;
+    }
+    .profile-background-box-3 {
+      background: transparent;
+    }
+    .profile-background-box-2 {
+      opacity: 50%;
+      background: linear-gradient(120deg, black, black, black, black,  gray, black, black, black, black);
+      background-size: 300% 300%;
+      background-position: left top;
+      transition: background-position 1.3s ease-in-out;
+    }
+    .pp-uc-background:hover .profile-background-box-2 {
+      background-position: right bottom;
+    }
+    .bio {
+      user-select: none;
+      font-family: Aldrich;
+      text-align: center;
+    }
+    .bio h1 {
+      color: black;
+      text-transform: uppercase;
+      font-family: Notable;
+      font-weight: 500;
+      letter-spacing: 2px;
+      padding-bottom: 2px;
+      text-shadow: darkred 4px 1px, #3d0000 -3px -2px 8px;
+      font-style: italic;
+    }
+    .bio h2 {
+      color: black;
+      font-family: Notable;
+      text-transform: uppercase;
+      font-weight: 500;
+      padding-bottom: 2px;
+      text-shadow: darkred 1px 1px 2px, darkred -1px -1px 2px;
+    }
+    .bio h3, .bio h4, .bio h5, .bio h6 {
+      font-family: Aldrich;
+      padding: 3px;
+      color: darkred;
+    }
+  </style>
+  <style>
+    .stats {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 0px;
+      border: 5px inset white;
+      background: black;
+      transition: all 0.7s ease-in-out;
+      padding: 10px;
+      z-index: 1;
+      transform: skew(15deg) rotateX(10deg) rotateY(15deg);
+    }
+    .stats::after {
+      position: absolute;
+      bottom: -20px;
+      left: 110px;
+      content: "";
+      height: 20px;
+      width: 50px;
+      background: white;
+      clip-path: polygon(74% 0, 0 0, 100% 99%);
+    }
+    .stats:hover {
+      transform: none;
+      transition: all 0.5s ease-in-out;
+      z-index: 2;
+    }
+    .stats h1 {
+      text-shadow: darkred 5px 0px;
+    }
+  </style>
+</div>
+
+<style class="bot-hide-NO"> 
+  .css-0 { background: rgba(1, 1, 1, 0) !important;}
+@media screen and (min-width: 48em) {
+} 
+  .css-12vfojg, .css-1jf56se {background: transparent;}
+  .css-1s5evre {border: none; border-radius: 0; }
+  .pp-cc-star-line, .pp-cc-star, .css-xrg4vd, .pp-cc-chats svg {
+    visibility: hidden;
+    font-size: 0px;
+  }
+</style>
+
+<style class="bot-config-NO"> /* DO NOT TOUCH! General shape of the bot card. */
+  .pp-cc-wrapper {
+    height: 540px;
+    width: 450px;
+  }
+  .pp-cc-wrapper::before {
+    position: absolute;
+    font-size: clamp(15px, 5vw, 25px);
+    text-transform: uppercase;
+    top: 15px;
+    left: 0;
+    right: 0;
+    white-space: nowrap;
+    text-align: center;
+    z-index: 1;
+  }
+  .pp-cc-wrapper::after { 
+    position: absolute;
+    top: 480px;
+    right: 0;
+    left: 0;
+    text-align: center;
+  }
+  .pp-cc-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 30px;
+  }
+  .profile-character-card-stack {
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-character-card-avatar-aspect-ratio {
+    position: absolute;
+    height: stretch;
+    width: stretch;
+    top: 65px;
+    bottom: 60px;
+    left: 25px;
+    right: 25px;
+  }
+  ._ribbon_67d1x_1 {
+    inset: 0;
+    overflow: visible;
+    position: absolute;
+  }
+  .pp-cc-ribbon-wrap {
+    position: absolute;
+    align-content: center;
+    top: 10px;
+    left: 20px;
+    right: 20px;
+    clip-path: none;
+    height: 50px;
+    box-shadow: none;
+    border-radius: 0px;
+  }
+  .profile-character-card-stats-box {
+    top: 430px;
+    animation: back 0.5s ease-in-out;
+    right: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .css-1baulvz {
+    display: flex;
+    justify-content: center;
+  }
+  .pp-cc-wrapper:hover .pp-cc-gradient-2,
+  .pp-cc-wrapper:hover .profile-character-card-stack-link-component-box,
+  .pp-cc-wrapper:hover .profile-character-card-creator-name-link,
+  .pp-cc-wrapper:hover .profile-character-card-description-markdown-container, 
+  .pp-cc-wrapper:hover .profile-character-card-tags,
+  .pp-cc-wrapper:hover .profile-character-card-box,
+  .pp-cc-wrapper:hover .profile-character-card-stats-box {
+    animation: reveal 0.5s ease-in-out;
+    z-index: 1;
+  }
+  .profile-character-card-stack-link-component-box, .profile-character-card-creator-name-link, .profile-character-card-description-markdown-container, .profile-character-card-tags, .profile-character-card-box {
+    position: relative;
+    animation: back 0.5s ease-in-out;
+    z-index: -1;
+  }
+  .profile-character-card-box {
+    position: absolute;
+    bottom: 0px;
+  }
+  .pp-cc-gradient-2 {
+    background: black;
+    z-index: -1;
+    animation: back 0.5s ease-out;
+    border-radius: 0px;
+  }
+  .pp-cc-tags {
+    position: absolute;
+    top: 330px;
+  }
+  .profile-character-card-description-box {
+    position: absolute;
+    top: 165px;
+    text-align: center;
+  }
+  .profile-character-card-stack-link-component {
+    justify-items: center;
+    height: stretch;
+    width: stretch;
+  }
+  .profile-character-card-stack-link-component-box {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+  }
+  .profile-character-card-creator-name-link {
+    position: absolute;
+    top: 115px;
+  }
+  .profile-character-card-name-box {
+    text-align: center;
+  }
+  .profile-character-card-chats-hstack {
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .pp-cc-gradient-3 {
+    border-radius: 0px;
+  }
+  .css-k1urot {
+    justify-content: center;
+  }
+  .profile-character-name {
+    overflow: visible;
+    white-space: normal;
+    text-align: center;
+  }
+  .profile-character-card-tags-wrap {
+    display: block;
+    align-items: center;
+  }
+  .pp-tag-limitless {
+    position: absolute;
+    min-width: 250px;
+    height: 30px;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-55%);
+    margin-right: 15px;
+    margin-left: 15px;
+    align-content: center;
+    justify-items: center;
+  }
+</style>
