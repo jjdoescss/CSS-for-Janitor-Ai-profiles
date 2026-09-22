@@ -1,0 +1,313 @@
+<div class="creds">
+  <a href="https://janitorai.com/profiles/fd7c024a-9aed-437f-8f07-2d63b645256a">CSS bot card template made by @JustCallMeJJ</a>
+   <style>
+     /* Bot card template written by JJ, DO NOT DELETE. Credits is REQUIRED if you use this template, edit however you like. */
+     .creds {
+       text-align: center;
+     }
+     .creds a {
+       font-family: Aldrich;
+       color: white;
+       opacity: 70%;
+       text-decoration: underline;
+       transition: all 0.5s ease-in-out;
+     }
+     .creds a:hover {
+       opacity: 100%;
+       color: red;
+       transition: all 0.5s ease-in-out;
+     }
+   </style>
+</div>
+
+<style class="bot-styling"> 
+  .pp-cc-name { /* bot name */
+    font-family: Georgia;
+    font-size: 19px;
+    color: red;
+    text-shadow: darkred 1px 2px 5px;
+  }
+
+  .pp-cc-ribbon-wrap { /* chat ribbon styling */
+    background: black;
+    border: red 5px double;
+  }
+
+  .pp-cc-wrapper { /* General bot card coloring */
+    background: black;
+    border: red double 8px;
+    border-radius: 0px;
+  }
+
+  .pp-cc-wrapper::before { /* title of the bot card */
+    content: "your text here";
+    font-family: Aldrich;
+  }
+
+  .pp-cc-wrapper::after { /* I recommend not touching this */
+    content: "Hover for details - Tap for details";
+    font-family: DM Serif Text;
+  }
+
+  .profile-character-card-tag-limitless { /* Limitless tag */
+    border-radius: 0px;
+    border: red ridge 3px;
+    background: black;
+    font-family: Aldrich;
+    font-size: 0px;
+  }
+
+ .profile-character-card-tag-limitless::after { /* Custom text for Limitless tag */
+   content: "「 PERSONAL PERKS 」";
+   font-size: 15px;
+   color: white;
+   text-align: center;
+   padding-top: 5px;
+  } 
+
+  .pp-cc-tags-regular, .pp-cc-tags-custom { /* Tag styling */
+    border-radius: 0px;
+    padding: 5px;
+    font-family: Aldrich;
+    color: gray;
+    border: 1px solid darkred;
+  }
+
+  .pp-cc-tags-regular:hover, .pp-cc-tags-custom:hover { /* Tag hover styling */
+    border: 2px solid #2b2b2b;
+    background: red;
+    color: black;
+    transform: scale(1.1);
+  }
+
+  .pp-cc-description { /* Bot Description */
+    font-family: DM Sans;
+    color: white;
+  }
+
+  .profile-character-card-creator-name-link { /* Creator name */
+    color: #5c0000;
+    font-family: Aldrich;
+  }
+
+  .profile-character-card-creator-name-link::before { /* Custom text IN FRONT of Creator name */
+    content: "Written by";
+    padding-right: 2px;
+  }
+
+  .profile-character-card-creator-name-link:hover { /* Creator name hover */
+    color: red;
+    transform: scale(1.1);
+  }
+
+  .pp-cc-chats { /* Chat ribbon */
+    font-family: Aldrich;
+  }
+
+  .pp-cc-chats::before { /* Custom text IN FRONT of chat count */
+    content: "has";
+    text-transform: uppercase;
+  }
+
+  .pp-cc-chats::after { /* Custom text BEHIND of chat count */
+    content: "total chats";
+    text-transform: uppercase;
+  }
+
+  .pp-cc-tokens-count {  /* Chat count font */
+    font-family: Aldrich;
+  }
+</style>
+
+<style class="animations-NO"> /* Bot card animations */
+    @keyframes reveal { /* Intro animations */
+    0% {
+      z-index: -1;
+      opacity: 0;
+      transition: z-index 0.5s ease-in;
+    }
+    50% {
+      transform: translateX(200px) rotate(15deg);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes back { /* Outro animations */
+    10% {
+      z-index: 1;
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transition: all 1s ease-in-out;
+         }
+  }
+</style>
+
+<style class="bot-hide-NO"> 
+  .css-0 { background: rgba(1, 1, 1, 0) !important;}
+@media screen and (min-width: 48em) {
+} 
+  .css-12vfojg, .css-1jf56se {background: transparent;}
+  .css-1s5evre {border: none; border-radius: 0; }
+  .pp-cc-star-line, .pp-cc-star, .css-xrg4vd, .pp-cc-chats svg {
+    visibility: hidden;
+    font-size: 0px;
+  }
+</style>
+
+<style class="bot-config-NO"> /* DO NOT TOUCH! General shape of the bot card. */
+  .pp-cc-wrapper {
+    height: 540px;
+    width: 450px;
+  }
+  .pp-cc-wrapper::before {
+    position: absolute;
+    font-size: clamp(15px, 5vw, 25px);
+    text-transform: uppercase;
+    top: 15px;
+    left: 0;
+    right: 0;
+    white-space: nowrap;
+    text-align: center;
+    z-index: 1;
+  }
+  .pp-cc-wrapper::after { 
+    position: absolute;
+    top: 480px;
+    right: 0;
+    left: 0;
+    text-align: center;
+  }
+  .pp-cc-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 30px;
+  }
+  .profile-character-card-stack {
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-character-card-avatar-aspect-ratio {
+    position: absolute;
+    height: stretch;
+    width: stretch;
+    top: 65px;
+    bottom: 60px;
+    left: 25px;
+    right: 25px;
+  }
+  ._ribbon_67d1x_1 {
+    inset: 0;
+    overflow: visible;
+    position: absolute;
+  }
+  .pp-cc-ribbon-wrap {
+    position: absolute;
+    align-content: center;
+    top: 10px;
+    left: 20px;
+    right: 20px;
+    clip-path: none;
+    height: 50px;
+    box-shadow: none;
+    border-radius: 0px;
+  }
+  .profile-character-card-stats-box {
+    top: 430px;
+    animation: back 0.5s ease-in-out;
+    right: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .css-1baulvz {
+    display: flex;
+    justify-content: center;
+  }
+  .pp-cc-wrapper:hover .pp-cc-gradient-2,
+  .pp-cc-wrapper:hover .profile-character-card-stack-link-component-box,
+  .pp-cc-wrapper:hover .profile-character-card-creator-name-link,
+  .pp-cc-wrapper:hover .profile-character-card-description-markdown-container, 
+  .pp-cc-wrapper:hover .profile-character-card-tags,
+  .pp-cc-wrapper:hover .profile-character-card-box,
+  .pp-cc-wrapper:hover .profile-character-card-stats-box {
+    animation: reveal 0.5s ease-in-out;
+    z-index: 1;
+  }
+  .profile-character-card-stack-link-component-box, .profile-character-card-creator-name-link, .profile-character-card-description-markdown-container, .profile-character-card-tags, .profile-character-card-box {
+    position: relative;
+    animation: back 0.5s ease-in-out;
+    z-index: -1;
+  }
+  .profile-character-card-box {
+    position: absolute;
+    bottom: 0px;
+  }
+  .pp-cc-gradient-2 {
+    background: black;
+    z-index: -1;
+    animation: back 0.5s ease-out;
+    border-radius: 0px;
+  }
+  .pp-cc-tags {
+    position: absolute;
+    top: 330px;
+  }
+  .profile-character-card-description-box {
+    position: absolute;
+    top: 165px;
+    text-align: center;
+  }
+  .profile-character-card-stack-link-component {
+    justify-items: center;
+    height: stretch;
+    width: stretch;
+  }
+  .profile-character-card-stack-link-component-box {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+  }
+  .profile-character-card-creator-name-link {
+    position: absolute;
+    top: 115px;
+  }
+  .profile-character-card-name-box {
+    text-align: center;
+  }
+  .profile-character-card-chats-hstack {
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .pp-cc-gradient-3 {
+    border-radius: 0px;
+  }
+  .css-k1urot {
+    justify-content: center;
+  }
+  .profile-character-name {
+    overflow: visible;
+    white-space: normal;
+    text-align: center;
+  }
+  .profile-character-card-tags-wrap {
+    display: block;
+    align-items: center;
+  }
+  .pp-tag-limitless {
+    position: absolute;
+    min-width: 250px;
+    height: 30px;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-55%);
+    margin-right: 15px;
+    margin-left: 15px;
+    align-content: center;
+    justify-items: center;
+  }
+</style>
