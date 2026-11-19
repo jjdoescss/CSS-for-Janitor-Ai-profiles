@@ -144,13 +144,11 @@
 
   .Btn[data-following='true']::before { /* "FOLLOWING" text */
     content: "Thank you..." !important;
-    font-size: 1rem;
     color: white;
   }
 
   .Btn[data-following='false']::before {
     content: "Help us" !important;
-    font-size: 1rem;
     color: white;
   }
 </style>
@@ -648,11 +646,19 @@
     border-radius: 0;
   }
 
-  .profile-uc-follow-text {
+ .profile-uc-follow-text {
+    opacity: 0;
+  }
+
+  .Btn[data-following='true']::before, .Btn[data-following='false']::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-size: 1rem;
     font-family: Pangolin;
     font-style: italic;
-    color: red;
-    font-size: 0;
   }
 
   .Btn {
