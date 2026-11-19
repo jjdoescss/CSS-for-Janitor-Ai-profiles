@@ -3,6 +3,8 @@ Written by @Lyran_DoesCss or @JustCallMeJJ on Janitor Ai, for Janitor AI profile
 
 ALL code is written by me, unless stated otherwise.
 
+A more detailed Google Doc here! https://docs.google.com/document/d/1MkgjtFSgoxi5fTnLREK83BxOUJrAqGYGy2hf0iC0Wu4
+
 ## BOUNDARIES AND DISCLAIMERS
 > ***"JJ, what do you mean by crediting you properly?"***
 >> Make sure to add a hyperlink that mentions me and my page along with the link to my profile. Don't make it so transparent you can barely see it, don't make the font too small, don't try. to. hide. it.
