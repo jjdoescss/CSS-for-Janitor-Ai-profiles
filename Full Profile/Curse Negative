@@ -1,0 +1,1111 @@
+<div class="REQUIRED-bio"> 
+  <ul class="nav" style="NOTE, You can change the button images by replacing the link of the img src!"> 
+    <li><a href="#bio"><img src="https://ella.janitorai.com/media-approved/r0jJUHHzblITARwfuIlVM.webp"></a></li> 
+    <li><a href="#series"><img src="https://ella.janitorai.com/media-approved/hEkeCGxToWzGEw1uyJGw2.webp"></a></li>
+    <li><a href="#dni"><img src="https://ella.janitorai.com/media-approved/HUgcBV0a7obXcc3ldHc_b.webp"></a></li>
+  </ul>
+</div>
+
+<div class="page" id="bio">
+  <h1>CHAPTER 1: AUTOPSY</h1>
+
+  <h3>Name: <span>You MUST put</span></h3>
+
+  <h3>Aliases: <span>the text within the span</span></h3>
+
+  <h3>Age: <span>Or else it won't work</span></h3>
+
+  <h3>Gender: <span>Or delete the h3</span></h3>
+
+  <h3>Pronouns: <span>And write paraghs</span></h3>
+
+  <h3>Schedule: <span>That works too.</span></h3>
+
+  <h3>Backstory: <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Voluptate modi do aspernatur dignissimos magnam quae ex excepturi do occaecat eius sint nesciunt aute. Sequi dolor vitae officia et voluptas. Similique ipsam elit occaecat dolores id labore iusto architecto corrupti aliquip. Architecto consequuntur numquam aut aut quasi qui numquam proident quos illo magna modi. Ea dolorem cupiditate similique duis similique ut dolor praesentium voluptatum.</span></h3>
+
+  <h4>WHERE CAN YOU FIND SACRIFICES?</h4>
+
+  <div class="socials">
+    <a href="YOUR_LINK_HERE">Link 1</a>
+    <a href="YOUR_LINK_HERE">Link 2</a>
+    <a href="YOUR_LINK_HERE"><img src="YOUR_IMAGE_LINK_HERE">Link 3</a>
+    <a href="YOUR_LINK_HERE"><img src="YOUR_IMAGE_LINK_HERE"> Link 4</a>
+  </div>
+
+</div>
+
+<div class="page" id="series">
+  <h2> CHAPTER 2: SUMMONINGS</h2>
+
+  <div class="uni">
+    <img src="YOUR_IMAGE_LINK_HERE">
+    <details>
+      <summary>NAME OF YOUR UNIVERSE HERE</summary>
+      To make more for your scenarios, copy and paste the whole thing! Yes, including the Div, Details, Img AND Summary tag. or else it won't work! And yes! You can just delete the img tag if your universe doesn't have an icon!
+    </details>
+  </div>
+
+  <div class="uni">
+    <img src="YOUR_IMAGE_LINK_HERE">
+    <details>
+      <summary>NAME OF YOUR UNIVERSE HERE</summary>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dicta molestias blanditiis eiusmod eiusmod exercitation consequuntur non reprehenderit ipsam. Incididunt irure nulla aute vitae. Excepteur minim et consectetur aut dolores quaerat. In ipsa id ex praesentium et aliquip aliqua minim quos accusamus deserunt. Incididunt obcaecati cupidatat inventore quia dolores mollit voluptas nisi animi quisquam mollitia amet magna. Quae consequuntur qui dignissimos deleniti illo architecto id molestias aut quos quaerat lorem nulla.
+    </details>
+  </div>
+
+  <div class="uni">
+    <img src="YOUR_IMAGE_LINK_HERE">
+    <details>
+      <summary>NAME OF YOUR UNIVERSE HERE</summary>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dicta molestias blanditiis eiusmod eiusmod exercitation consequuntur non reprehenderit ipsam. Incididunt irure nulla aute vitae. Excepteur minim et consectetur aut dolores quaerat. In ipsa id ex praesentium et aliquip aliqua minim quos accusamus deserunt. Incididunt obcaecati cupidatat inventore quia dolores mollit voluptas nisi animi quisquam mollitia amet magna. Quae consequuntur qui dignissimos deleniti illo architecto id molestias aut quos quaerat lorem nulla.
+    </details>
+  </div>
+</div>
+
+<div class="page" id="dni">
+  <h2>CHAPTER 3: UNDERSTANDING</h2>
+
+  <h3>ACCEPTED OFFERINGS</h3>
+
+  <ul class="tag-list">
+    <li>tags</li> <li>you</li> <li>like</li> <li>writing</li> <li>here</li>
+  </ul>
+
+  <br>
+
+  <h3>REJECTED OFFERINGS</h3>
+  <ul class="tag-list">
+    <li>tags</li> <li>you</li> <li>dont</li> <li>write</li> <li>here</li> 
+  </ul>
+
+  <ol class="rules"> 
+    <li>Be respectful, not only to the creator, but also each other.</li>
+    <li>Do NOT cross boundaries set by the creator. No is a full sentence.</li>
+    <li>Do NOT harrass, pressure or be nasty to the creator or each other.</li>
+    <li>Do NOT write explicitely horrid reviews on bots written by creator.</li>
+    <li>Don't like? Don't interact. BLOCK!</li>
+    <li>You can also write your own rules!</li>
+  </ol>
+
+  <h4 style="font-size: 2em;"> Failure to comply will result in... You probably dying (getting blocked). Be aware.</h4>
+</div>
+
+<div class="creds-DO-NOT-DELETE">
+  <a href="https://janitorai.com/profiles/fd7c024a-9aed-437f-8f07-2d63b645256a">CSS template by @JustCallMeJJ</a>
+   <style>/* Bot card template written by JJ, DO NOT DELETE. Credits is REQUIRED if you use this template, edit however you like. */
+     .creds-DO-NOT-DELETE {
+       text-align: center;
+     }
+     .creds-DO-NOT-DELETE a {
+       font-family: Pangolin;
+       font-size: 15px;
+       color: white;
+       opacity: 70%;
+       text-decoration: underline;
+       transition: all 0.5s ease-in-out;
+     }
+     .creds-DO-NOT-DELETE a:hover {
+       opacity: 100%;
+       color: red;
+       transition: all 0.5s ease-in-out;
+     }
+   </style>
+</div>
+
+<style class="profile-custom"> /* Customizing your info! */
+  .pp-uc-followers-count::after { /* Custom Followers text */
+    content: "pts"
+  }
+
+  .pp-uc-member-since::after { /* Custom tagline */
+    content: "Ayako";
+    font-size: 1rem;
+  }
+
+  .pp-uc-avatar-container::after { /* Status line! Appears on your pfp when you hover */
+    content: "Status: Write your thoughts here! Be careful though, there is a limit, so don't write too long!";
+    font-family: Pangolin;
+    color: white;
+  }
+</style>
+
+<style class="botcard-custom"> /* Customize bot cards! */
+  .pp-cc-name { /* Customizing bot name */
+    font-size: 1.2em;
+    font-family: Caveat Brush;
+    color: #431611;
+  }
+
+  .pp-cc-description { /* Customizing bot desc */
+    font-family: Pangolin;
+    color: #403B35;
+    font-weight: 600;
+  }
+
+  .pp-cc-wrapper { /* Customizing bot card color */
+    background: #BFBFBF;
+    border: 5px solid #BFBFBF;
+  }
+
+  .pp-cc-avatar { /* Customizing bot avatar */
+    filter: grayscale(50%);
+    border-radius: 0;
+  }
+
+  .profile-character-card-creator-name-link { /* Customizing creator name */
+    font-family: Caveat Brush;
+    font-size: 1em;
+    color: #601B1C;
+  }
+
+  .profile-character-card-creator-name-link::before { /* Customizing text BEFORE creator name */
+    content: "A gift from";
+    padding-right: 2px; /* KEEP THIS! So the text have space! */
+  }
+
+  .pp-cc-wrapper::after { /* "HOVER TO FLIP" text customizing */
+    font-family: Rock Salt;
+    color: #403B35;
+  }
+
+  .pp-cc-tokens-count { /* Customizing token count */
+    font-family: Berkshire Swash;
+    text-shadow: 2px 1px #736B5E;
+  }
+
+  .pp-tag-limitless { /* Custom "Limitless" tag */
+    font-size: 0;
+    font-family: Caveat;
+    font-weight: 900;
+    color: #5B9EB9;
+    background: rgb(243, 192, 149, 30%);
+    border: 2px dashed #B3423D;
+  }
+
+  .pp-tag-limitless::after { /* Custom "LIMITLESS" tag text! */
+    content: "Collected Memories...";
+    font-size: 1rem;
+  }
+
+  .pp-cc-tags-regular, .pp-cc-tags-custom { /* Customizing tags */
+    font-family: Pangolin;
+    color: #8A2F02;
+    border: 1px #508569 solid;
+    padding-top: 2px;
+  }
+
+  .pp-cc-tags-regular:hover, .pp-cc-tags-custom:hover { /* Customizing tags hovering effect */
+    color: red;
+    background: black;
+  }
+
+  .pp-cc-chats, .pp-cc-public-chats { /* Customizing chat count! */
+    color: black;
+    font-family: Pangolin;
+  }
+</style>
+
+<style class="page-custom"> /* Customize the rest of your page! */
+  .pp-tabs-button { /* Customizing tabs buttons */
+    font-family: Cardo;
+    color: gray;
+  }
+
+  button[data-tab="characters"]::after { /* Custom "Characters" text */
+    content: "collected";
+    font-size: 1.2rem;
+  }
+
+  button[data-tab="chats"]::after { /* Custom "Chats" text */
+    content: "records";
+    font-size: 1.2rem;
+  }
+
+  button[data-tab="scripts"]::after { /* Custom "Scripts" text */
+    content: "diary";
+    font-size: 1.2rem;
+  }
+
+  .pp-tabs-wrapper { /* Customizing the tabs background! */
+    background: linear-gradient(to bottom, black, transparent, #700000);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px darkred inset;
+  }
+
+  .pp-tabs-indicator { /* Change color for the butterfly icon! */
+    background: #c20000;
+  }
+
+  .pp-pg-total { /* Character count background */
+    background: linear-gradient(to right, transparent, #040B13, #061920, #0B2228, transparent)
+  }
+
+  .pp-pg-total-text::after { /* Custom Characters text */
+    content: "total photos";
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  ._card_lixs0_11 { /* Customizing public chat card */
+    background: radial-gradient(circle, #7A1825, #5B0F19, #2C0A09);
+    box-shadow: black inset 0 0 10px;
+    font-family: Pangolin
+  }
+
+  ._title_lixs0_62 { /* Customizing public chat header */
+    font-family: Garamond;
+    font-size: 1.5rem;
+    color: #2A63F1;
+    font-style: italic;
+    text-shadow: 0 0 3px #091A4E, 0 0 5px #2A63F1, 0 0 10px #2A63F1;
+  }
+
+  .profile-script-card { /* Customizing script card */
+    font-family: Caveat;
+    background: #141C0F;
+    box-shadow: #1F5D2E inset 0 0 50px, 0 0 20px inset #42B14A;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .profile-script-card:hover { /* Customizing script card hover */
+    background: #C9953F;
+    box-shadow: #B36704 inset 0 0 50px, 0 0 20px #C9963E;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .profile-script-card:hover ._title_3h9om_118, .profile-script-card:hover ._description_3h9om_145 { /* Customizing script content when hovered */
+    color: #141C0F;
+    transition: all 0.5s ease-in-out;
+  }
+
+  ._title_3h9om_118 { /* Customizing script header */
+    font-family: Caveat Brush;
+    font-size: 1.1em;
+    font-weight: 500;
+    font-style: italic;
+    color: #FEE861;
+  }
+
+  .pp-top-bar { /* Customizing the top bar */
+    background: linear-gradient(to bottom, black, transparent, #700000);
+    border-bottom: double 10px #700000;
+    backdrop-filter: blur(2px);
+    font-family: Cardo;
+  }
+
+  .pp-top-bar-search::after { /* Customizing the top search bar */
+    content: "Find us, we await you..."; /* Custom Search text */
+    color: white;
+    font-family: Pangolin;
+    opacity: 50%;
+    position: absolute; /* ignore from here */
+    top: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in;
+    text-overflow: ellipsis;
+    max-width: calc(100% - (2.5rem * 2)); /* Creds to @MissRadiance for this cause im bad at math */
+  }
+
+  .glow-on-hover::after { /* Customizing "CREATE A CHARACTER" button */
+    opacity: 50%;
+    content: "「 Continue The Search 」";
+    font-size: 18px;
+    font-family: DM Serif Text;
+    border: #595959 2px dashed;
+  }
+
+  .glow-on-hover:hover::after { /* Customizing "CREATE A CHARACTER" hover */
+    opacity: 1;
+    color: red;
+    background: #470000;
+    border: solid 3px;
+    text-shadow: darkred 3px 2px 5px;
+  }
+</style>
+
+<style class="tooltips">
+  .css-jdhqy4>div { /* ALL tooltips for your personal profile */
+    font-family: Pangolin;
+    background: black;
+    color: white;
+    border-radius: 0px;
+    border: double darkred 5px;
+    font-weight: 500;
+  }
+/* ---- WEB SEARCH HISTORY DROP DOWN ----*/
+  ._dropdown_1cle1_108 { /* Drop down menu */
+    border: white solid 2px;
+    border-radius: 15px;
+  }
+
+  ._historyItem_10txd_1 { /* Drop down menu background */
+    background: black;
+  }
+
+  ._historyItem_10txd_1:hover { /* Drop down menu background hover */
+    background: #470000;
+  }
+
+  ._queryText_10txd_67 { /* Search history text */
+    font-family: Raleway;
+    color: white;
+    font-size: 18px;
+    transition: font-size 0.5s ease-out;
+  }
+
+  ._queryText_10txd_67:hover { /* Search history text hover */
+    transform: scale(0,5.0,5);
+    font-size: 20px;
+    color: red;
+    transition: all 0.5s ease-in;
+  }
+/* ---- NOTIFICATIONS SECTION (Notif) ---- */
+  .pp-top-bar-notifications-popover-title { /* Notif title */
+    font-family: "Press Start 2P";
+    color: red;
+    font-size: 0px; /* Change size if you wanna keep the og text, rec: 18px */
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 1px 3px 5px #470000;
+  }
+
+  .pp-top-bar-notifications-popover-title::after { /* Notif title custom text, delete if you want to keep og */
+    content: "Inbox";
+    font-size: 1rem;
+  }
+/* ---- ANNOUNCEMENT SECTION, IGNORE ----*/
+  .pp-top-bar-notifications-list {
+    border: none;
+    background: linear-gradient(to top, black, #8f0000, black);
+    background-size: 200% 200%;
+    background-position: center top;
+    transition: all 1s ease-in-out;
+  }
+
+  .pp-top-bar-notifications-button { /* Button itself */
+    background: black;
+    border: red 2px solid;
+    border-radius: 20px;
+  }
+
+  .pp-top-bar-notifications-popover { /* Notif Background */
+    background: black;
+    border-radius: 0;
+  }
+
+  .pp-top-bar-notifications-header:before { /* Notif Top background gradient */
+    background: linear-gradient(to bottom,  #880808, black);
+    border-radius: 0;
+  }
+
+  .pp-top-bar-notifications-item-content {
+  font-family: Pangolin;
+  font-weight: 500;
+} /* Notif content text */
+
+ ._highlightUsernameBody_di476_169, ._highlightUsername_di476_159  { /* Notif user highlight */
+   font-family: Berkshire Swash;
+   color: red;
+   font-weight: 500;
+ }
+
+  ._highlightCharacterBody_di476_174, ._highlightCharacter_di476_164 { /* Notif char highlight */
+    font-family: Berkshire Swash;
+    color: darkred;
+  }
+/* ---- USER MENU (PROFILE, SETTINGS, IMAGE GALLERY, ETC...) ---- */
+  .profile-top-bar-app-menu-list { /* user menu background */
+    background: linear-gradient(to bottom, transparent, black, darkred);
+    border: double 7px darkred;
+    border-radius: 0px;
+  }
+
+  .profile-top-bar-app-menu-list-item { /* user menu background text */
+    font-family: Jua;
+    background: transparent;
+    color: gray;
+  }
+
+  .profile-top-bar-app-menu-list-item:hover { /* user menu text hover */
+    background: black;
+    font-weight: 700;
+    color: red;
+  }
+
+  .profile-filter-modal-header { /* Tags section header */
+    font-family: "Press Start 2P";
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+  .pp-fl-tags-heading { /* Tags section sub header */
+    font-family: Aldrich;
+    font-size: 25px;
+    font-variant: small-caps;
+  }
+
+  .profile-filter-tag-button { /* Indiviual tags */
+    color: red;
+    border: darkred solid 1px;
+    border-radius: 0px;
+    font-family: Aldrich;
+  }
+
+  ._gradientRight_14k4u_36 { /* Expand button gradient */
+    background: linear-gradient(90deg, transparent 0%, red 50%, #470000 60%);
+  }
+
+  ._navigationButton_14k4u_104, ._expandButton_14k4u_153 { /* Expand button + navigate button */
+    background: #470000;
+    border-radius: 10px;
+  }
+
+  ._expandButton_14k4u_153:hover, ._navigationButton_14k4u_104:hover { /* Expand button + navigate button hover effect*/
+    background: black; 
+  }
+
+  ._contentWrapperUnread_di476_132 { /* Unread customizing section, ignore. */
+    background: transparent;
+  }
+
+  ._unreadIndicator_di476_23, ._announcementIndicator_di476_431 {
+    border: none;
+    background: linear-gradient(to bottom,black,red);
+    box-shadow: #FEFAFB 0px 0px 10px;
+  }
+</style>
+
+<style class="mobile"> /* ---- MOBILE SECTION ---- */
+  .pp-top-bar-title { /* "Profile of __" og text hide */
+    font-size: 0px
+  }
+
+  .pp-top-bar-title::before { /* Replacement for top bar mobile text */
+    font-size: 15px;
+    content: "DATABASE";
+    text-transform: uppercase;
+    font-family: Aldrich;
+    font-size: 18px;
+  }
+
+  .pp-top-bar-back-button p { /* Mobile back og button hide */
+    font-size: 0px
+  }
+
+  .pp-top-bar-back-button p::before, .pp-top-bar-back-button svg { /* Customize */
+    font-size: 20px;
+    content: "Back"; /* Custom text here */
+    text-transform: uppercase;
+    color: gray;
+    opacity: 50%;
+  }
+
+  .pp-mnb-wrapper { /* Mobile bar */
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+  }
+
+  .pp-mnb-item-icon { /* Mobile Icons */
+    color: gray;
+  }
+  /* DANGER ZONE! Anything written below this line is REQUIRED and will not have any notes for guidance! DO NOT TOUCH! IT WILL BUG OUT! TREAD WITH CAUTION! */
+</style> 
+
+<style class="profile-config-NO">
+  .nav li {
+    list-style: none;
+    max-height: 190px;
+    max-width: 200px;
+  }
+  .nav img {
+    max-height: 190px;
+    border: 5px solid black;
+    transition: all 0.5s ease-in-out;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px;
+  }
+  .profile-background-box-1, .profile-background-box-2, .profile-background-box-3 {
+    background: transparent !important;
+  }
+
+  .profile-info-hstack {
+    gap: 25px;
+  }
+
+  .pp-uc-about-me {
+    user-select: none;
+  }
+
+  .profile-info-stack-inner::before {
+    content: "Info";
+    font-family: Cardo;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-left: 15px;
+    text-shadow: 0 0 10px black, 0 5px 10px black, 0 -2px 10px black;
+  }
+
+  .profile-info-stack-inner-flex, .pp-uc-followers-count, .pp-uc-member-since {
+    font-family: Cardo;
+    border-bottom: 2px solid #1f3735;
+    color: #051f16;
+    padding: 7px;
+    margin-bottom: 4px;
+    user-select: none;
+    text-shadow: 2px 0 5px #30a67f, -4px 4px 5px #123b2d, 4px 0 10px #051f16;
+  }
+
+  .pp-uc-title {
+    font-family: Cardo;
+    color: #051f16;
+  }
+
+  .pp-uc-title::first-letter, .pp-uc-followers-count span:last-child, .pp-uc-member-since {
+    font-size: 0px;
+  }
+
+  .pp-uc-background {
+    max-width: none;
+    background: rgba(30, 30, 30, 30%);
+    backdrop-filter: blur(5px);
+  }
+
+  .pp-uc-avatar-container {
+    width: 50%;
+    height: 250px;
+    border: 4px white solid;
+    background: #111;
+    box-shadow: 0 0 0 1px #e3dac9, 2px 2px 0 0 #1c1814, -1px -2px 0 0 #2b241c, 3px -1px 0 0 #0f0d0a, -2px 3px 0 0 #3a2e22, 0 0 15px rgba(0,0,0,0.9);
+  }
+
+  .pp-uc-avatar {
+    height: 100%;
+    width: 100%;
+    filter: brightness(70%);
+    box-shadow: inset 0 0 50px black;
+  }
+
+  .pp-uc-avatar-container::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background: linear-gradient(to bottom, transparent, black 70%);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-uc-avatar-container::after {
+    position: absolute;
+    bottom: -10px;
+    padding: 10px;
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-uc-avatar-container:hover::after {
+    opacity: 1;
+    bottom: 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-uc-avatar-container:hover::before {
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .profile-page-flex {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 16px;
+  }
+
+  .pp-page-background {
+    filter: brightness(50%) contrast(130%);
+  }
+
+  @media (max-width: 768px) {
+    .profile-page-flex {
+      grid-template-columns: 1fr;
+    }
+
+    .profile-info-hstack {
+      flex-direction: column;
+    }
+
+    .pp-uc-avatar-container {
+      width: 100%;
+    }
+  }
+</style>
+
+<style class="bio-config-NO">
+  .page {
+    display: none;
+  }
+
+  .page:target {
+    display: flex;
+    flex-direction: column;
+    max-height: 360px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: rgba(172, 168, 165, 50%);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 10px 10px black;
+    font-family: Cardo;
+    gap: 10px;
+  }
+
+  .page h1 {
+    position: sticky;
+    top: 0;
+    font-family: Cardo;
+    text-shadow: 2px 0 10px #30a67f, 4px 0 4px #051f16;
+    text-transform: uppercase;
+    color: #123b2d;
+    border-bottom: solid 2px;
+    margin-bottom: 10px;
+    background: rgba(172, 168, 165);
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .page h2 {
+    font-family: Cardo;
+    text-shadow: 2px 0 10px #30a67f, 4px 0 4px #051f16;
+    text-transform: uppercase;
+    color: #123b2d;
+    border-bottom: solid 2px;
+    margin-bottom: 10px;
+    background: rgba(172, 168, 165);
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .page h3 {
+    color: red;
+    font-family: Cardo;
+    text-shadow: 2px 0 0 black;
+    font-size: 1.5rem;
+    border-bottom: solid 2px #123b2d;
+    padding-bottom: 5px;
+  }
+
+  h3 span {
+    color: white;
+    text-shadow: none;
+    font-size: .9em;
+    font-weight: 500;
+  }
+
+  .page h4 {
+    font-family: Cardo;
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    text-shadow: 0 5px 10px red, 0 -5px 10px red, 5px 0 10px red;
+    padding: 10px;
+  }
+
+  .nav img:hover {
+    transform: rotate(10deg);
+    box-shadow: 0 0 10px white;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .uni summary {
+    position: sticky;
+    top: 0;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.5em;
+    text-shadow: 0 0 5px red, 5px 0 5px red, 0 5px 5px red;
+    padding-bottom: 10px;
+    background-color: #1a0e0e;
+  }
+
+  .uni {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .uni img {
+    max-height: 200px;
+    border: 5px solid #5a3d2b;
+    filter: saturate(70%);
+    transform: rotate(3deg);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .uni img:hover {
+    box-shadow: 5px 5px 5px black;
+    filter: none;
+    transform: rotate(0deg);
+    transition: box-shadow 0.3s ease-in-out, all 0.5s ease-in-out;
+  }
+
+  .uni details {
+    width: 100%;
+    height: 70px;
+    background-color: #1a0e0e;
+    background-image: repeating-linear-gradient(45deg, rgba(0,0,0,0.1) 0px, rgba(0,0,0,0.1) 2px, transparent 2px, transparent 4px), radial-gradient(circle at 50% 50%, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 100% 100%, 4px 4px;
+    border: 3px solid #5a3d2b;
+    border-radius: 8px;
+    padding: 15px 20px;
+    clip-path: polygon(
+      10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px );
+    transition: all 0.2s ease-in-out;
+  }
+
+  .uni details[open] {
+    height: 200px;
+    overflow: hidden;
+    overflow-y: auto;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .tag-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    background: rgb(0, 0, 0, 70%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black, black, black, black, black, transparent);
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-height: 60px;
+  }
+
+  .tag-list li {
+    list-style: none;
+    border: solid 2px gray;
+    padding: 7px;
+    background: linear-gradient(150deg, black, black, red, red);
+    background-size: 500%;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .tag-list li:hover {
+    color: black;
+    background-position: right bottom;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .socials {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    height: 220px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    gap: 2em;
+    text-align: center;
+    background: black;
+    border-radius: 150px 10px;
+    box-shadow: 0 0 25px gray inset, 0 0 10px black inset;
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding: 10px;
+  }
+
+  .socials a {
+    flex-shrink: 0;
+    color: white;
+    text-decoration: underline;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .socials a:hover {
+    text-shadow: 0 5px 10px red, 0 -5px 10px red, 5px 0 10px red, -5px 0 10px red;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .socials img {
+    max-height: 150px;
+    filter: grayscale(100%);
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .socials img:hover {
+    filter: grayscale(0%);
+    box-shadow: 0 0 15px red;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .rules {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+    list-style-position: inside;
+    margin: 0 auto;
+    background: #121212;
+    border: 3px #4A1313 solid;
+    flex-shrink: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .rules li {
+    width: fit-content;
+    background: linear-gradient(to right, #800000, transparent);
+    padding: 2px;
+  }
+
+  .rules li::marker {
+    color: #121212;
+    font-weight: 600;
+    font-family: Courier New;
+  }
+</style>
+
+<style class="botcard-config-NO">
+  .pp-cc-gradient-1, .pp-cc-gradient-2, .pp-cc-gradient-3, .pp-cc-star-line {
+    background: transparent !important;
+    opacity: 0;
+  }
+
+  .pp-cc-wrapper {
+    height: 400px;
+    border-radius: 0;
+    transform: rotateZ(-5deg);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-cc-wrapper:hover {
+    transform: rotateY(180deg) rotateZ(0deg) translateY(-10px);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-cc-wrapper:hover .profile-character-card-description-box, .pp-cc-wrapper:hover .pp-cc-tags {
+    opacity: 100%;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-cc-wrapper:hover .profile-character-card-name-box {
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-cc-tokens-count {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-cc-wrapper:hover .pp-cc-tokens-count {
+    transform: rotateY(180deg);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .profile-character-card-name-box {
+    transform: rotateY(180deg);
+    opacity: 0;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .profile-character-card-avatar-aspect-ratio {
+    height: 250px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .profile-character-card-creator-name-link {
+    position: absolute;
+    bottom: 70px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .profile-character-card-description-box {
+    position: absolute;
+    top: 60px;
+    transform: rotateY(180deg);
+    opacity: 0;
+  }
+
+  .pp-cc-tags {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: rotateY(180deg);
+    opacity: 0;
+  }
+
+  .pp-cc-wrapper:hover .profile-character-card-avatar-aspect-ratio, .pp-cc-wrapper:hover .profile-character-card-creator-name-link, .pp-cc-wrapper:hover .pp-cc-chats, .pp-cc-wrapper:hover .pp-cc-public-chats, .pp-cc-wrapper:hover::after {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .profile-character-card-stats-box {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 30px;
+  }
+
+  .pp-cc-ribbon {
+    filter: none;
+    inset: 0;
+  }
+
+  ._wrapper_lg2d8_47 {
+    display: flex;
+  }
+
+  .pp-cc-ribbon-wrap {
+    clip-path: none;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .pp-cc-chats, .pp-cc-public-chats {
+    justify-content: center;
+    padding: 2px;
+    font-size: 1.1rem;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-cc-wrapper::after {
+    content: "Hover to flip";
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .profile-character-card-tag-limitless {
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+    height: 30px;
+  }
+
+  @media (max-width: 768px) {
+    .pp-cc-wrapper::after {
+      content: "Tap to flip"
+    }
+  }
+</style>
+
+<style class="page-config-NO">
+  .profile-tabs-wrapper {
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  button[data-tab="characters"], button[data-tab="chats"], button[data-tab="scripts"] {
+    font-size: 0;
+  }
+
+  .pp-tabs-button[aria-selected="true"] {
+    color: red;
+    font-weight: 700;
+    text-shadow: 0 0 2px black, 0 0 5px black;
+  }
+
+  .profile-tabs-indicator {
+    height: 100%;
+    clip-path: polygon(19.97% 29.21%, 20.11% 34.38%, 20.38% 34.78%, 20.79% 38.32%, 22.28% 42.93%, 23.23% 44.84%, 25.54% 48.37%, 27.45% 50.41%, 29.35% 52.17%, 33.02% 54.89%, 32.88% 55.43%, 31.79% 56.25%, 29.35% 59.65%, 27.99% 62.64%, 27.45% 64.95%, 27.31% 67.80%, 27.72% 69.70%, 28.53% 71.06%, 29.35% 71.74%, 30.98% 72.28%, 32.61% 72.01%, 34.38% 71.33%, 37.64% 69.43%, 39.54% 67.93%, 43.48% 63.99%, 46.88% 59.65%, 49.32% 55.98%, 55.16% 46.06%, 59.92% 40.90%, 63.59% 38.32%, 67.26% 36.41%, 72.15% 34.78%, 74.46% 34.51%, 74.73% 35.33%, 74.32% 39.27%, 73.91% 39.95%, 73.37% 42.39%, 71.74% 45.65%, 68.75% 49.59%, 64.67% 53.26%, 62.77% 54.62%, 65.08% 57.07%, 66.98% 60.60%, 67.66% 63.18%, 67.66% 64.67%, 66.98% 66.17%, 65.90% 66.85%, 65.22% 66.85%, 63.45% 66.30%, 61.96% 65.35%, 59.92% 63.72%, 57.88% 61.55%, 53.40% 55.43%, 50.27% 60.46%, 47.28% 64.40%, 42.93% 68.75%, 40.35% 70.65%, 39.40% 71.06%, 39.95% 71.06%, 43.48% 69.43%, 46.60% 67.26%, 49.86% 64.27%, 52.58% 60.60%, 53.26% 60.05%, 58.56% 66.17%, 60.73% 68.21%, 63.18% 69.97%, 65.63% 71.33%, 68.48% 72.28%, 70.11% 72.01%, 71.33% 71.20%, 71.88% 70.52%, 72.69% 68.48%, 72.69% 65.22%, 72.42% 63.99%, 70.52% 59.51%, 69.29% 57.61%, 66.98% 54.89%, 71.74% 51.22%, 74.46% 48.37%, 76.49% 45.38%, 78.40% 41.03%, 79.35% 37.64%, 79.62% 34.24%, 79.89% 33.83%, 79.89% 29.21%, 79.21% 29.48%, 75.00% 29.76%, 74.32% 30.16%, 72.15% 30.43%, 68.34% 31.66%, 64.27% 33.56%, 58.83% 37.50%, 57.61% 38.59%, 53.53% 43.61%, 49.73% 49.46%, 44.97% 57.88%, 43.07% 60.46%, 40.63% 63.18%, 38.45% 65.08%, 36.01% 66.58%, 34.78% 66.85%, 33.56% 66.58%, 32.74% 65.76%, 32.34% 64.54%, 32.34% 63.18%, 32.74% 62.36%, 33.02% 60.60%, 33.97% 58.70%, 35.19% 56.79%, 37.23% 54.62%, 33.83% 52.04%, 30.30% 48.51%, 28.94% 46.74%, 27.04% 43.34%, 26.09% 40.76%, 25.82% 38.72%, 25.41% 37.77%, 25.27% 34.78%, 25.54% 34.51%, 26.77% 34.51%, 28.53% 35.19%, 29.35% 35.19%, 32.74% 36.41%, 36.68% 38.45%, 40.08% 40.90%, 43.07% 43.89%, 45.24% 46.74%, 46.33% 48.64%, 46.88% 48.37%, 50.14% 43.21%, 52.85% 39.54%, 57.74% 34.92%, 55.71% 35.73%, 53.26% 37.36%, 50.00% 40.49%, 47.55% 43.48%, 46.74% 44.02%, 46.20% 43.61%, 44.57% 41.03%, 41.85% 38.04%, 39.67% 36.14%, 34.65% 33.02%, 30.84% 31.39%, 27.04% 30.43%, 26.77% 30.16%, 25.68% 30.16%, 25.00% 29.76%, 23.51% 29.76%, 23.23% 29.48%, 20.79% 29.48%, 19.97% 29.21%, 19.97% 29.21%);
+    opacity: 50%;
+  }
+
+  .character-list-pagination-flex {
+    flex-direction: column;
+  }
+
+  .profile-filters-flex-inner {
+    justify-content: flex-start;
+  }
+
+  .profile-filters-flex-inner-hassearchfilter {
+    width: 80%;
+  }
+
+  .character-list-pagination-box {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .profile-pagination-flex-outer {
+    justify-content: center;
+  }
+
+  .profile-badge-flex-outer {
+    height: 40px;
+    width: 80%;
+    border: none;
+    box-shadow: none;
+    font-family: Cardo;
+  }
+
+  .pp-pg-total-text {
+    font-size: 0;
+  }
+
+  .react-select__value-container {
+    font-family: Cardo;
+    text-shadow: 0 0 1px, 0 0 5px red;
+  }
+
+  #search-input::placeholder {
+  opacity: 0;
+  }
+
+  #search-input {
+  position: absolute;
+  width: calc(100% - 2.5rem) !important;
+  }
+
+  .pp-top-bar-search:focus-within::after, .pp-top-bar-search:has(#search-input:not(:placeholder-shown))::after { 
+    opacity: 0;
+  }
+
+.pp-top-bar-search:focus-within #search-input, #search-input:not(:placeholder-shown) { 
+  opacity: 1;
+}
+
+  .glow-on-hover { /* hiding og button */
+    font-size: 0px;
+    width: 200px;
+    height: 30px;
+    font-variant: small-caps;
+    padding-top: 2px;
+  }
+
+  .glow-on-hover:hover::before {
+    opacity: 0;
+  }
+</style>
