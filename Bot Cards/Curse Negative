@@ -1,1 +1,231 @@
+<div class="creds-DO-NOT-DELETE">
+  <a href="https://janitorai.com/profiles/fd7c024a-9aed-437f-8f07-2d63b645256a">Bot Card template by @JustCallMeJJ</a>
+   <style>
+     .creds-DO-NOT-DELETE {
+       text-align: center;
+     }
+     .creds-DO-NOT-DELETE a {
+       font-family: Pangolin;
+       font-size: 15px;
+       color: white;
+       opacity: 70%;
+       text-decoration: underline;
+       transition: all 0.5s ease-in-out;
+     }
+     .creds-DO-NOT-DELETE a:hover {
+       opacity: 100%;
+       color: red;
+       transition: all 0.5s ease-in-out;
+     }
+   </style>
+</div>
 
+<style class="botcard-custom"> 
+  .pp-cc-name { 
+    font-size: 1.2em;
+    font-family: Caveat Brush;
+    color: #431611;
+  }
+
+  .pp-cc-description { 
+    font-family: Pangolin;
+    color: #403B35;
+    font-weight: 600;
+  }
+
+  .pp-cc-wrapper { 
+    background: #BFBFBF;
+    border: 5px solid #BFBFBF;
+  }
+
+  .pp-cc-avatar { 
+    filter: grayscale(50%);
+    border-radius: 0;
+  }
+
+  .profile-character-card-creator-name-link { 
+    font-family: Caveat Brush;
+    font-size: 1em;
+    color: #601B1C;
+  }
+
+  .profile-character-card-creator-name-link::before { 
+    content: "A gift from";
+    padding-right: 2px; 
+  }
+
+  .pp-cc-wrapper::after { 
+    font-family: Rock Salt;
+    color: #403B35;
+  }
+
+  .pp-cc-tokens-count { 
+    font-family: Berkshire Swash;
+    text-shadow: 2px 1px #736B5E;
+  }
+
+  .pp-tag-limitless { 
+    font-size: 0;
+    font-family: Caveat;
+    font-weight: 900;
+    color: #5B9EB9;
+    background: rgb(243, 192, 149, 30%);
+    border: 2px dashed #B3423D;
+  }
+
+  .pp-tag-limitless::after { 
+    content: "Collected Memories...";
+    font-size: 1rem;
+  }
+
+  .pp-cc-tags-regular, .pp-cc-tags-custom { 
+    font-family: Pangolin;
+    color: #8A2F02;
+    border: 1px #508569 solid;
+    padding-top: 2px;
+  }
+
+  .pp-cc-tags-regular:hover, .pp-cc-tags-custom:hover { 
+    color: red;
+    background: black;
+  }
+
+  .pp-cc-chats, .pp-cc-public-chats { 
+    color: black;
+    font-family: Pangolin;
+  }
+</style>
+
+<style class="botcard-config-NO">
+  .pp-cc-gradient-1, .pp-cc-gradient-2, .pp-cc-gradient-3, .pp-cc-star-line {
+    background: transparent !important;
+    opacity: 0;
+  }
+
+  .pp-cc-wrapper {
+    height: 400px;
+    border-radius: 0;
+    transform: rotateZ(-5deg);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-cc-wrapper:hover {
+    transform: rotateY(180deg) rotateZ(0deg) translateY(-10px);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-cc-wrapper:hover .profile-character-card-description-box, .pp-cc-wrapper:hover .pp-cc-tags {
+    opacity: 100%;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-cc-wrapper:hover .profile-character-card-name-box {
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-cc-tokens-count {
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-cc-wrapper:hover .pp-cc-tokens-count {
+    transform: rotateY(180deg);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .profile-character-card-name-box {
+    transform: rotateY(180deg);
+    opacity: 0;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .profile-character-card-avatar-aspect-ratio {
+    height: 250px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .profile-character-card-creator-name-link {
+    position: absolute;
+    bottom: 70px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .profile-character-card-description-box {
+    position: absolute;
+    top: 60px;
+    transform: rotateY(180deg);
+    opacity: 0;
+  }
+
+  .pp-cc-tags {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: rotateY(180deg);
+    opacity: 0;
+  }
+
+  .pp-cc-wrapper:hover .profile-character-card-avatar-aspect-ratio, .pp-cc-wrapper:hover .profile-character-card-creator-name-link, .pp-cc-wrapper:hover .pp-cc-chats, .pp-cc-wrapper:hover .pp-cc-public-chats, .pp-cc-wrapper:hover::after {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .profile-character-card-stats-box {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 30px;
+  }
+
+  .pp-cc-ribbon {
+    filter: none;
+    inset: 0;
+  }
+
+  ._wrapper_lg2d8_47 {
+    display: flex;
+  }
+
+  .pp-cc-ribbon-wrap {
+    clip-path: none;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .pp-cc-chats, .pp-cc-public-chats {
+    justify-content: center;
+    padding: 2px;
+    font-size: 1.1rem;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pp-cc-wrapper::after {
+    content: "Hover to flip";
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .profile-character-card-tag-limitless {
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+    height: 30px;
+  }
+
+  @media (max-width: 768px) {
+    .pp-cc-wrapper::after {
+      content: "Tap to flip"
+    }
+  }
+</style>
